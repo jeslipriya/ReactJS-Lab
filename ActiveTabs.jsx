@@ -22,15 +22,23 @@ function TabComponent() {
         </div>
     )
 }
-const styles = {container: {
+const Styles = {
+container: {
+gap: "10px",
 textAlign: "center",
 padding: "20px",
 fontFamily: "Arial",
 },
+
 tabContainer: {
+  display: "flex",
+  justifyContent: "center",
+ gap: "20px",
 marginBottom: "20px",
 },
+
 btn: {
+gap: "10px",
 padding: "10px 20px",
 margin: "5px",
 cursor: "pointer",
@@ -38,6 +46,7 @@ background: "#ddd",
 border: "1px solid #aaa",
 borderRadius: "5px",
 },
+
 activeBtn: {
 padding: "10px 20px",
 margin: "5px",
@@ -47,7 +56,9 @@ color: "white",
 border: "1px solid #3e8e41",
 borderRadius: "5px",
 },
+
 contentBox: {
+gap: "10px",
 padding: "20px",
 border: "1px solid #ccc",
 width: "300px",
