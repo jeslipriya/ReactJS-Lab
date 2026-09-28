@@ -22,25 +22,39 @@ function TabComponent() {
         </div>
     )
 }
-const Styles={
-    container:{
-        minHeight:"100px",
-        padding:"20px",
-        border:"1px solid",
-        textAlign:"center"
-    },
-    tabContainer:{
-        padding:"20px",
-        border:"none",
-        margin:"20px",
-        alignItems:"center",
-    },
-    ContentBox:{
-        height:"100px",
-        width:"300px",
-        marginLeft:"20px",
-        background:"lightblue",
-        paddingTop:"10px",
-    },
-}
+const styles = {container: {
+textAlign: "center",
+padding: "20px",
+fontFamily: "Arial",
+},
+tabContainer: {
+marginBottom: "20px",
+},
+btn: {
+padding: "10px 20px",
+margin: "5px",
+cursor: "pointer",
+background: "#ddd",
+border: "1px solid #aaa",
+borderRadius: "5px",
+},
+activeBtn: {
+padding: "10px 20px",
+margin: "5px",
+cursor: "pointer",
+background: "#4caf50",
+color: "white",
+border: "1px solid #3e8e41",
+borderRadius: "5px",
+},
+contentBox: {
+padding: "20px",
+border: "1px solid #ccc",
+width: "300px",
+margin: "0 auto",
+borderRadius: "5px",
+background: "#f9f9f9",
+},
+};
+
 export default TabComponent
